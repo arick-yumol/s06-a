@@ -24,8 +24,7 @@ li[class="tool-use"] {
 	border-color: rgb(157, 176, 209);
 }
 
-/*Ask how to remove bullet using ADJACENT SIBLING STYLE during breaktime*/
-#nodejs, #expressjs, #reactjs, #mongodb{
+#jsimage + #ul-tool {
 	list-style-type: none;
 }
 
