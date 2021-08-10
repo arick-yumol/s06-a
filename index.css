@@ -1,0 +1,44 @@
+#external {
+	color: yellow;
+}
+
+* {
+	font-family: "Verdana";
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+#h2-id {
+	text-transform: uppercase;
+}
+
+.languages-offer {
+	background-color: #aed19d;
+}
+
+li[class="tool-use"] {
+	border-style: solid;
+	border-color: rgb(157, 176, 209);
+}
+
+/*Ask how to remove bullet using ADJACENT SIBLING STYLE during breaktime*/
+#nodejs, #expressjs, #reactjs, #mongodb{
+	list-style-type: none;
+}
+
+#sec-id img {
+	height: 150px;
+	width: 150px;
+	border-radius: 100px;
+}
+
+ul > li {
+	letter-spacing: 10px;
+}
+
+h4 ~ p {
+	text-align: center;
+}
